@@ -1,0 +1,34 @@
+.hero{
+  position: relative;
+  background: url("hero-city.jpg");
+  background-position: top;
+  background-size: cover;
+  min-height: 100vh;
+}
+.cardimg{
+  position: relative;
+  background: url("hero-city.jpg");
+  background-position: bottom;
+  background-size: cover;
+  height: 176px;
+}
+.frontncenter{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  text-transform: lowercase;
+}
+.dark,.mdl-layout__drawer-button{
+  color: #242424;
+}
+.light{
+  color: white;
+}
+.taft{
+  background: url("taft.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 176px;
+}

@@ -1,0 +1,141 @@
+@charset "utf-8";
+body    {
+	margin: 0;
+	color: #151515;
+	font-family: Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helveta, Arial, sans-serif;
+	background-color: #EFF5F8;
+}
+
+#wrapper {
+	background-color: white;
+	width: 100%;
+	min-width: 740px;
+	margin: 0 auto;
+	max-width: 1000px;
+}
+#hero   {
+	position: relative;
+	clear: left;
+}
+#hero article {
+	padding-top: 0;
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 36%;
+	position: absolute;
+	top: 26px;
+	left: 597px;
+	background-color: #dd3d41;
+	border-radius: 15px;
+	color: white;
+}
+#hero h2 {
+	color: white;
+	text-transform: uppercase;
+	margin-top: 5px;
+	margin-bottom: -7px;
+}
+
+
+
+#hero img {
+	max-width: 100%;
+}
+h1, h2 {
+	color: #3399cc;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 600;
+}
+h1 {
+	font-size: 72px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+footer {
+	padding-left: 2%;
+	background-color: #43A6CB;
+	color: white;
+	clear: both;
+}
+figure {
+	width: 420px;
+}
+figcaption {
+	display: block;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+}
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+.floatleft {
+	float: left;
+	margin-right: 10px;
+}
+.floatright {
+	margin-left: 10px;
+	float: right;
+}
+figure img {
+	padding: 10px;
+	background-color: white;
+	box-shadow: 1px 1px 15px #999999;
+}
+
+
+
+
+
+
+
+#main {
+	width: 58%;
+	margin-left: 2%;
+	float: left;
+}
+#sidebar {
+	width: 34%;
+	margin-left: 4%;
+	float: left;
+}
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+a:link {
+	color: #FF6600;
+}
+a:visited {
+	color: #ff944c;
+}
+a:hover, a:active, a:focus {
+	color: #7f3300;
+	text-decoration: underline;
+}
+#mainnav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#mainnav a {
+	width: 20%;
+	display: block;
+	float: left;
+	text-align: center;
+	background-color: #4d4d4d;
+	color: white;
+	padding: 6px 0;
+	text-transform: uppercase;
+}
+#mainnav a:hover , #mainnav a:active,#mainnav a:focus, #mainnav a.thispage{
+	text-decoration: none;
+	background-color: #43a6cb;
+}
+article, aside, figure, footer, header, nav {
+	display: block;
+}
